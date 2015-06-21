@@ -16,11 +16,11 @@ This run_analysis.R script should be in the same directory as the "UCI HAR Datas
 i.e. Directory Structure View (order is unimportant but structure is) :  
 
 a. Working Directory  
-  * a.1  run_analysis.R  
-  * a.2  UCI HAR Dataset (directory)  
-  * a.3  train (directory)  contains training related files like X_train, y_train,subject_train   
-  * a.4  test  ( directory)  contains test realated files like X_test, y_test,subject_test  
-  * a.5  all other files like README, features_info,features,activity_labels   
+     a.1  run_analysis.R  
+     a.2  UCI HAR Dataset (directory)  
+            a.2.1  train (directory)  contains training related files like X_train, y_train,subject_train   
+            a.2.2  test  ( directory)  contains test realated files like X_test, y_test,subject_test  
+            a.2.3  all other files like README, features_info,features,activity_labels   
 
 
 ## Running run_analysis.R
