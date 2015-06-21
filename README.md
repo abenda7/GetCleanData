@@ -13,6 +13,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## Assumptions:
 This run_analysis.R script should be in the same directory as the "UCI HAR Dataset" directory that contains the data as provided. 
+
 i.e. Directory Structure View (order is unimportant but structure is) :
 a. Working Directory 
      a.1  run_analysis.R
@@ -25,15 +26,15 @@ a. Working Directory
 
 
 ## Running run_analysis.R
-* source("run_analysis.R") 
-    this loads the script and runs the function run_analysis(). It would take a bit of time to complete (not instantaneous).
+* source("run_analysis.R"); 
+    This loads the script and runs the function run_analysis(). It would take a bit of time to complete (not instantaneous).
     You might see some messages from loading dplyr package.
     Once done, the output data is in UC1HAR.txt
     Once loaded the function run_analysis() can be re-run without having to source again. 
 
 * You can verify the data thru the following commands: 
-    data <- read.table("UC1HAR.txt", header = TRUE)
-    View(data)
+    data <- read.table("UC1HAR.txt", header = TRUE);
+    View(data);
 
 
 ## Details on run_analysis.R function

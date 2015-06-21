@@ -8,13 +8,13 @@
      The data contains average of said variables group by Subject (Test and Training) and Activity.
 
 ###  Field List  
-1.  Subject   -  ID associated with a particular person either from Test or Training Group
-                           Numeric;  values range  from 1 to 30      
+1.  Subject   -  ID associated with a particular person either from Test or Training Group.
+                        Numeric;  Values range  from 1 to 30      
       
 2. Activity   -   The activity undertaken by subject while being measured.
-                           Character;  
-                           values range from: 
-                           LAYING
+                         Character;  
+                         Values are: 
+                         LAYING
 , SITTING
 , STANDING
 , WALKING
