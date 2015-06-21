@@ -13,15 +13,14 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## Assumptions:
 This run_analysis.R script should be in the same directory as the "UCI HAR Dataset" directory that contains the data as provided. 
-i.e. Directory Structure View (order is unimportant but structure is) :
-a. Working Directory
-	*a.1  run_analysis.R
-	*a.2  UCI HAR Dataset (directory)
-	*a.3 train (directory)
-		*a.3.1 training realated files like X_train, y_train,subject_train
-	*a.4 test  ( directory)
-		*a.4.1 test realated files like X_test, y_test,subject_test
-	*a.5 other files like README, features_info,features,activity_labels 
+i.e. Directory Structure View (order is unimportant but structure is) :  
+
+a. Working Directory  
+  * a.1  run_analysis.R  
+  * a.2  UCI HAR Dataset (directory)  
+  * a.3  train (directory)  contains training related files like X_train, y_train,subject_train   
+  * a.4  test  ( directory)  contains test realated files like X_test, y_test,subject_test  
+  * a.5  all other files like README, features_info,features,activity_labels   
 
 
 ## Running run_analysis.R
